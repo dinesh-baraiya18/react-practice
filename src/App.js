@@ -18,7 +18,14 @@ import { Route, Routes } from "react-router-dom";
 // import DyanamicData from "./components/16-dyanamicData/DyanamicData";
 // import View from "./components/16-dyanamicData/View";
 // import ProductFilter from "./components/17-products-filter/ProductFilter";
-import UploadFile from "./components/18-upload-file/UploadFile";
+// import UploadFile from "./components/18-upload-file/UploadFile";
+
+// crud with api
+// import CrudMain from "./components/19-crud-restapi/CrudMain";
+// import Create from "./components/19-crud-restapi/Create";
+// import Edit from "./components/19-crud-restapi/Edit";
+
+import VerticalTabs from "./components/20-tab2/Tab2";
 
 const App = () => {
   return (
@@ -26,9 +33,23 @@ const App = () => {
     //   <Route path="/" element={<DyanamicData />} />
     //   <Route path="/view/:id" element={<View />} />
     // </Routes>
-    <>
-      <UploadFile />
-    </>
+
+    // crud with API
+    // <Routes>
+    //   <Route path="/" element={<CrudMain />}></Route>
+    //   <Route path="/create" element={<Create />}></Route>
+    //   <Route path="/edit/:id" element={<Edit />}></Route>
+    //   <Route
+    //     path="*"
+    //     element={
+    //       <div>
+    //         <h1>404 error</h1>
+    //       </div>
+    //     }
+    //   ></Route>
+    // </Routes>
+
+    <VerticalTabs />
   );
 };
 
